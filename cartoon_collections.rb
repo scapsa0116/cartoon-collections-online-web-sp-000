@@ -29,5 +29,4 @@ def find_the_cheese(snacks)
   
  # if cheese_types.include? ("ceddar")
     
-end
  end

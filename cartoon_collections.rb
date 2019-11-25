@@ -13,10 +13,10 @@ end
 
 
 def long_planeteer_calls(calls_long)
-  calls_long.map |letters| 
-  if letters.length >3 
+  calls_long.map do |letters| 
+  if letters.length > 4 
     return true
-    elsif
+  else 
     return false
     
 end

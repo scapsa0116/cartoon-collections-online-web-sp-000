@@ -16,10 +16,8 @@ def long_planeteer_calls(calls_long)
   calls_long.map do |letters| 
   if letters.length > 4 
     return true
-  else 
-    return false
-    
-end
+ 
+    end
 end
 
 
